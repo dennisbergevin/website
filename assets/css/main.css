@@ -275,6 +275,7 @@ h6 {
   margin: 0 0 1rem 0;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+  padding-bottom: 0.5rem;
 }
 
 h1 a,
@@ -373,7 +374,7 @@ code {
 pre {
   -webkit-overflow-scrolling: touch;
   font-family: "Courier New", monospace;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   margin: 0 0 2rem 0;
 }
 
@@ -1436,7 +1437,8 @@ body.is-preload #bg:before {
   margin-bottom: 0;
 }
 
-#header .content p {
+#header .content p,
+pre {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-size: 0.8rem;
